@@ -62,8 +62,7 @@ body {
    kenapa pada body? karena elemen body membungkus semua elemen dari nav section sampai footer
    */
    font-family: 'Poppins';
-   font-family: 'Nunito Sans', sans-serif;
-   font-family: 'Roboto Slab', serif;
+   font-family: 'Roboto', sans-serif;
 }
 
 /*
@@ -137,7 +136,7 @@ nav {
    untuk pengguna vscode silahkan arahkan mouse ke kotak warna di bawah
    untuk mengganti warna sesuai keinginan
    */
-   background-color: #a11c08;
+   background-color: #a5c908;
 
    /* box-shadow membuat efek bayangan */
    box-shadow: 0 3px 7px -2px #000;
@@ -274,7 +273,7 @@ section.best-seller::after {
    height: 76px;
 
    /* background-image untuk menambahkan gambar sebagai background */
-   background-image: url(../images/background/garis-atas.png);
+   background-image: url(../images/background/bgkopi.png);
 
    /*background-size agar gambar latar menyesuaikan tinggi / lebar elemen */
    background-size: cover;
@@ -285,7 +284,7 @@ section.best-seller::after {
 
 section.best-seller::after {
    height: 60px;
-   background-image: url(../images/background/garis-bawah.png);
+   background-image: url(../images/background/bgkopi.png);
    top: unset;
    bottom: -60px;
 }
@@ -302,8 +301,8 @@ aturan ini tidak berlaku untuk elemen <p> yang ada di dalam <div class="produk">
 */
 
 section.best-seller>p {
-   font-size: 18px;
-   margin-bottom: 40px;
+   font-size: 20px;
+   margin-bottom: 25px;
    width: 100%;
 }
 
@@ -382,11 +381,11 @@ yang ada di dalam <section class="about-us">
 */
 
 section.about-us p:nth-child(2) {
-   margin-bottom: 40px;
+   margin-bottom: 35px;
 }
 
 section.about-us p:nth-child(4) {
-   margin-top: 40px;
+   margin-top: 35px;
 }
 
 
@@ -399,23 +398,24 @@ section.our-team {
 }
 
 section.our-team h2 {
-   margin-bottom: 20px;
+   margin-bottom: 30px;
    width: 100%;
 }
 
 section.our-team>p {
    margin-bottom: 30px;
-   font-size: 18px;
+   font-size: 30px;
    width: 800px;
    max-width: 90%;
    margin-left: auto;
    margin-right: auto;
+   text-align: center;
    width: 100%;
 }
 
 div.team {
    width: 25%;
-   padding: 20px;
+   padding: 25px;
 }
 
 div.team img {
@@ -518,7 +518,7 @@ div.kontak {
 /* FOOTER */
 
 footer {
-   background-color: #a11c08;
+   background-color: #a5c908;
    padding-top: 15px;
    padding-bottom: 15px;
    color: #fff;
