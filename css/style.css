@@ -182,11 +182,11 @@ nav a {
 }
 
 a.shop {
-   margin-right: 100px;
+   margin-right: 25px;
 }
 
 a.chat {
-   margin-right: 30px;
+   margin-right: 40px;
    background-color: rgb(8, 69, 8);
    color: #fff;
    padding-top: 5px;
